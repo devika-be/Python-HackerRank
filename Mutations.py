@@ -1,0 +1,6 @@
+#Problem link : https://www.hackerrank.com/challenges/python-mutations/problem
+
+#Ans :
+
+def mutate_string(string, position, character):
+    return string[:position] + character + string[position + 1:]
