@@ -1,0 +1,10 @@
+#Problem link : https://www.hackerrank.com/challenges/py-set-add/problem
+
+#Ans :
+
+n = int(input())
+stamps = set()
+while n > 0:
+    stamps.add(input())
+    n -=1
+print(len(stamps))
